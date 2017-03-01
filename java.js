@@ -1,11 +1,11 @@
 $(document).ready(function(){
   $("#badmon").click(function() {
-     alert($("#password").val()); 
-  }); 
+    var password = ("raw") ; 
+    if (password === "raw") {
+      $("p").append(" GOT THE RIGHT PASSWORD") ;
+    }
   
+  
+  });
 
-    
-    
-    
-    
-});
+}); 
